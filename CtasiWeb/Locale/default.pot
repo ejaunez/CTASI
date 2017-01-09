@@ -1,0 +1,1110 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-04-02 15:03+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/CountriesController.php:38;72;99;129;163;190
+msgid "Invalid country"
+msgstr ""
+
+#: Controller/CountriesController.php:53;76;144;167
+msgid "The country has been saved."
+msgstr ""
+
+#: Controller/CountriesController.php:56;79;147;170
+msgid "The country could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CountriesController.php:103;194
+msgid "The country has been deleted."
+msgstr ""
+
+#: Controller/CountriesController.php:105;196
+msgid "The country could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CurrenciesController.php:37;69;94;124;156;181
+msgid "Invalid currency"
+msgstr ""
+
+#: Controller/CurrenciesController.php:52;73;139;160
+msgid "The currency has been saved."
+msgstr ""
+
+#: Controller/CurrenciesController.php:55;76;142;163
+msgid "The currency could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CurrenciesController.php:98;185
+msgid "The currency has been deleted."
+msgstr ""
+
+#: Controller/CurrenciesController.php:100;187
+msgid "The currency could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DepartmentsController.php:38;72;99;129;163;190
+msgid "Invalid department"
+msgstr ""
+
+#: Controller/DepartmentsController.php:53;76;144;167
+msgid "The department has been saved."
+msgstr ""
+
+#: Controller/DepartmentsController.php:56;79;147;170
+msgid "The department could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/DepartmentsController.php:103;194
+msgid "The department has been deleted."
+msgstr ""
+
+#: Controller/DepartmentsController.php:105;196
+msgid "The department could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:38;73;101;131;166;194
+msgid "Invalid post"
+msgstr ""
+
+#: Controller/PostsController.php:53;77;146;170
+msgid "The post has been saved."
+msgstr ""
+
+#: Controller/PostsController.php:56;80;149;173
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:105;198
+msgid "The post has been deleted."
+msgstr ""
+
+#: Controller/PostsController.php:107;200
+msgid "The post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ProductsController.php:38;73;101;131;166;194
+msgid "Invalid product"
+msgstr ""
+
+#: Controller/ProductsController.php:53;77;146;170
+msgid "The product has been saved."
+msgstr ""
+
+#: Controller/ProductsController.php:56;80;149;173
+msgid "The product could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ProductsController.php:105;198
+msgid "The product has been deleted."
+msgstr ""
+
+#: Controller/ProductsController.php:107;200
+msgid "The product could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/RegionsController.php:38;70;95;125;157;182
+msgid "Invalid region"
+msgstr ""
+
+#: Controller/RegionsController.php:53;74;140;161
+msgid "The region has been saved."
+msgstr ""
+
+#: Controller/RegionsController.php:56;77;143;164
+msgid "The region could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RegionsController.php:99;186
+msgid "The region has been deleted."
+msgstr ""
+
+#: Controller/RegionsController.php:101;188
+msgid "The region could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/StoresController.php:38;70;95;125;157;182
+msgid "Invalid store"
+msgstr ""
+
+#: Controller/StoresController.php:53;74;140;161
+msgid "The store has been saved."
+msgstr ""
+
+#: Controller/StoresController.php:56;77;143;164
+msgid "The store could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StoresController.php:99;186
+msgid "The store has been deleted."
+msgstr ""
+
+#: Controller/StoresController.php:101;188
+msgid "The store could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TransportsController.php:38;73;101;131;166;194
+msgid "Invalid transport"
+msgstr ""
+
+#: Controller/TransportsController.php:53;77;146;170
+msgid "The transport has been saved."
+msgstr ""
+
+#: Controller/TransportsController.php:56;80;149;173
+msgid "The transport could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TransportsController.php:105;198
+msgid "The transport has been deleted."
+msgstr ""
+
+#: Controller/TransportsController.php:107;200
+msgid "The transport could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UnitsController.php:38;70;95;125;157;182
+msgid "Invalid unit"
+msgstr ""
+
+#: Controller/UnitsController.php:53;74;140;161
+msgid "The unit has been saved."
+msgstr ""
+
+#: Controller/UnitsController.php:56;77;143;164
+msgid "The unit could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UnitsController.php:99;186
+msgid "The unit has been deleted."
+msgstr ""
+
+#: Controller/UnitsController.php:101;188
+msgid "The unit could not be deleted. Please, try again."
+msgstr ""
+
+#: View/Countries/add.ctp:4
+msgid "Add Country"
+msgstr ""
+
+#: View/Countries/add.ctp:11
+#: View/Countries/admin_add.ctp:10
+#: View/Countries/admin_edit.ctp:11
+#: View/Countries/edit.ctp:10
+#: View/Currencies/add.ctp:11
+#: View/Currencies/admin_add.ctp:10
+#: View/Currencies/admin_edit.ctp:11
+#: View/Currencies/edit.ctp:11
+#: View/Departments/add.ctp:10
+#: View/Departments/edit.ctp:11
+#: View/Posts/add.ctp:12
+#: View/Posts/edit.ctp:13
+#: View/Products/add.ctp:12
+#: View/Products/edit.ctp:13
+#: View/Regions/add.ctp:10
+#: View/Regions/edit.ctp:11
+#: View/Stores/add.ctp:10
+#: View/Stores/edit.ctp:11
+#: View/Transports/add.ctp:14
+#: View/Transports/edit.ctp:15
+#: View/Units/add.ctp:11
+#: View/Units/edit.ctp:11
+msgid "Submit"
+msgstr ""
+
+#: View/Countries/add.ctp:14
+#: View/Countries/admin_add.ctp:13
+#: View/Countries/admin_edit.ctp:14
+#: View/Countries/admin_index.ctp:8;40
+#: View/Countries/admin_view.ctp:22;46;79
+#: View/Countries/edit.ctp:13
+#: View/Countries/index.ctp:8;40
+#: View/Countries/view.ctp:22;46;79
+#: View/Currencies/add.ctp:14
+#: View/Currencies/admin_add.ctp:13
+#: View/Currencies/admin_edit.ctp:14
+#: View/Currencies/admin_index.ctp:8;38
+#: View/Currencies/admin_view.ctp:22
+#: View/Currencies/edit.ctp:14
+#: View/Currencies/index.ctp:8;38
+#: View/Currencies/view.ctp:22
+#: View/Departments/add.ctp:13
+#: View/Departments/edit.ctp:14
+#: View/Departments/index.ctp:8;40
+#: View/Departments/view.ctp:22;50;88
+#: View/Posts/add.ctp:15
+#: View/Posts/edit.ctp:16
+#: View/Posts/index.ctp:9;42
+#: View/Posts/view.ctp:27;50
+#: View/Products/add.ctp:15
+#: View/Products/edit.ctp:16
+#: View/Products/index.ctp:10;46
+#: View/Products/view.ctp:32
+#: View/Regions/add.ctp:13
+#: View/Regions/edit.ctp:14
+#: View/Regions/index.ctp:8;38
+#: View/Regions/view.ctp:22;40
+#: View/Stores/add.ctp:13
+#: View/Stores/edit.ctp:14
+#: View/Stores/index.ctp:8;38
+#: View/Stores/view.ctp:22;45;82
+#: View/Transports/add.ctp:17
+#: View/Transports/edit.ctp:18
+#: View/Transports/index.ctp:11;46
+#: View/Transports/view.ctp:37;58
+#: View/Units/add.ctp:14
+#: View/Units/edit.ctp:14
+#: View/Units/index.ctp:8;38
+#: View/Units/view.ctp:22
+msgid "Actions"
+msgstr ""
+
+#: View/Countries/add.ctp:17
+#: View/Countries/admin_add.ctp:16
+#: View/Countries/admin_edit.ctp:18
+#: View/Countries/admin_view.ctp:26
+#: View/Countries/edit.ctp:17
+#: View/Countries/view.ctp:26
+#: View/Products/add.ctp:21
+#: View/Products/edit.ctp:23
+#: View/Products/index.ctp:51
+#: View/Products/view.ctp:40
+msgid "List Countries"
+msgstr ""
+
+#: View/Countries/add.ctp:18
+#: View/Countries/admin_add.ctp:17
+#: View/Countries/admin_edit.ctp:19
+#: View/Countries/admin_index.ctp:43
+#: View/Countries/admin_view.ctp:28
+#: View/Countries/edit.ctp:18
+#: View/Countries/index.ctp:43
+#: View/Countries/view.ctp:28
+#: View/Currencies/add.ctp:17
+#: View/Currencies/admin_add.ctp:16
+#: View/Currencies/admin_edit.ctp:18
+#: View/Currencies/admin_view.ctp:26
+#: View/Currencies/edit.ctp:17
+#: View/Currencies/view.ctp:26
+msgid "List Currencies"
+msgstr ""
+
+#: View/Countries/add.ctp:19
+#: View/Countries/admin_add.ctp:18
+#: View/Countries/admin_edit.ctp:20
+#: View/Countries/admin_index.ctp:44
+#: View/Countries/admin_view.ctp:29
+#: View/Countries/edit.ctp:19
+#: View/Countries/index.ctp:44
+#: View/Countries/view.ctp:29
+#: View/Currencies/admin_index.ctp:40
+#: View/Currencies/admin_view.ctp:27
+#: View/Currencies/index.ctp:40
+#: View/Currencies/view.ctp:27
+msgid "New Currency"
+msgstr ""
+
+#: View/Countries/add.ctp:20
+#: View/Countries/admin_add.ctp:19
+#: View/Countries/admin_edit.ctp:21
+#: View/Countries/admin_index.ctp:45
+#: View/Countries/admin_view.ctp:30
+#: View/Countries/edit.ctp:20
+#: View/Countries/index.ctp:45
+#: View/Countries/view.ctp:30
+#: View/Products/add.ctp:18
+#: View/Products/edit.ctp:20
+#: View/Products/view.ctp:36
+msgid "List Products"
+msgstr ""
+
+#: View/Countries/add.ctp:21
+#: View/Countries/admin_add.ctp:20
+#: View/Countries/admin_edit.ctp:22
+#: View/Countries/admin_index.ctp:46
+#: View/Countries/admin_view.ctp:31;67
+#: View/Countries/edit.ctp:21
+#: View/Countries/index.ctp:46
+#: View/Countries/view.ctp:31;67
+#: View/Products/index.ctp:48
+#: View/Products/view.ctp:37
+msgid "New Product"
+msgstr ""
+
+#: View/Countries/add.ctp:22
+#: View/Countries/admin_add.ctp:21
+#: View/Countries/admin_edit.ctp:23
+#: View/Countries/admin_index.ctp:47
+#: View/Countries/admin_view.ctp:32
+#: View/Countries/edit.ctp:22
+#: View/Countries/index.ctp:47
+#: View/Countries/view.ctp:32
+#: View/Departments/add.ctp:17
+#: View/Departments/edit.ctp:19
+#: View/Departments/index.ctp:43
+#: View/Departments/view.ctp:28
+#: View/Regions/add.ctp:16
+#: View/Regions/edit.ctp:18
+#: View/Regions/view.ctp:26
+msgid "List Regions"
+msgstr ""
+
+#: View/Countries/add.ctp:23
+#: View/Countries/admin_add.ctp:22
+#: View/Countries/admin_edit.ctp:24
+#: View/Countries/admin_index.ctp:48
+#: View/Countries/admin_view.ctp:33;98
+#: View/Countries/edit.ctp:23
+#: View/Countries/index.ctp:48
+#: View/Countries/view.ctp:33;98
+#: View/Departments/add.ctp:18
+#: View/Departments/edit.ctp:20
+#: View/Departments/index.ctp:44
+#: View/Departments/view.ctp:29
+#: View/Regions/index.ctp:40
+#: View/Regions/view.ctp:27
+msgid "New Region"
+msgstr ""
+
+#: View/Countries/admin_add.ctp:4
+msgid "Admin Add Country"
+msgstr ""
+
+#: View/Countries/admin_edit.ctp:4
+msgid "Admin Edit Country"
+msgstr ""
+
+#: View/Countries/admin_edit.ctp:17
+#: View/Countries/admin_index.ctp:20
+#: View/Countries/admin_view.ctp:58;89
+#: View/Countries/edit.ctp:16
+#: View/Countries/index.ctp:20
+#: View/Countries/view.ctp:58;89
+#: View/Currencies/admin_edit.ctp:17
+#: View/Currencies/admin_index.ctp:18
+#: View/Currencies/edit.ctp:16
+#: View/Currencies/index.ctp:18
+#: View/Departments/edit.ctp:17
+#: View/Departments/index.ctp:20
+#: View/Departments/view.ctp:66;99
+#: View/Posts/edit.ctp:19
+#: View/Posts/index.ctp:22
+#: View/Posts/view.ctp:63
+#: View/Products/edit.ctp:19
+#: View/Products/index.ctp:26
+#: View/Regions/edit.ctp:17
+#: View/Regions/index.ctp:18
+#: View/Regions/view.ctp:50
+#: View/Stores/edit.ctp:17
+#: View/Stores/index.ctp:18
+#: View/Stores/view.ctp:58;95
+#: View/Transports/edit.ctp:21
+#: View/Transports/index.ctp:26
+#: View/Transports/view.ctp:69
+#: View/Units/edit.ctp:17
+#: View/Units/index.ctp:18
+msgid "Delete"
+msgstr ""
+
+#: View/Countries/admin_edit.ctp:17
+#: View/Countries/admin_index.ctp:20
+#: View/Countries/admin_view.ctp:25;58;89
+#: View/Countries/edit.ctp:16
+#: View/Countries/index.ctp:20
+#: View/Countries/view.ctp:25;58;89
+#: View/Currencies/admin_edit.ctp:17
+#: View/Currencies/admin_index.ctp:18
+#: View/Currencies/admin_view.ctp:25
+#: View/Currencies/edit.ctp:16
+#: View/Currencies/index.ctp:18
+#: View/Currencies/view.ctp:25
+#: View/Departments/edit.ctp:17
+#: View/Departments/index.ctp:20
+#: View/Departments/view.ctp:25;66;99
+#: View/Posts/edit.ctp:19
+#: View/Posts/index.ctp:22
+#: View/Posts/view.ctp:30;63
+#: View/Products/edit.ctp:19
+#: View/Products/index.ctp:26
+#: View/Products/view.ctp:35
+#: View/Regions/edit.ctp:17
+#: View/Regions/index.ctp:18
+#: View/Regions/view.ctp:25;50
+#: View/Stores/edit.ctp:17
+#: View/Stores/index.ctp:18
+#: View/Stores/view.ctp:25;58;95
+#: View/Transports/edit.ctp:21
+#: View/Transports/index.ctp:26
+#: View/Transports/view.ctp:40;69
+#: View/Units/edit.ctp:17
+#: View/Units/index.ctp:18
+#: View/Units/view.ctp:25
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Countries/admin_index.ctp:2
+#: View/Countries/index.ctp:2
+msgid "Countries"
+msgstr ""
+
+#: View/Countries/admin_index.ctp:18
+#: View/Countries/admin_view.ctp:56;87
+#: View/Countries/index.ctp:18
+#: View/Countries/view.ctp:56;87
+#: View/Currencies/admin_index.ctp:16
+#: View/Currencies/index.ctp:16
+#: View/Departments/index.ctp:18
+#: View/Departments/view.ctp:64;97
+#: View/Posts/index.ctp:20
+#: View/Posts/view.ctp:61
+#: View/Products/index.ctp:24
+#: View/Regions/index.ctp:16
+#: View/Regions/view.ctp:48
+#: View/Stores/index.ctp:16
+#: View/Stores/view.ctp:56;93
+#: View/Transports/index.ctp:24
+#: View/Transports/view.ctp:67
+#: View/Units/index.ctp:16
+msgid "View"
+msgstr ""
+
+#: View/Countries/admin_index.ctp:19
+#: View/Countries/admin_view.ctp:57;88
+#: View/Countries/index.ctp:19
+#: View/Countries/view.ctp:57;88
+#: View/Currencies/admin_index.ctp:17
+#: View/Currencies/index.ctp:17
+#: View/Departments/index.ctp:19
+#: View/Departments/view.ctp:65;98
+#: View/Posts/index.ctp:21
+#: View/Posts/view.ctp:62
+#: View/Products/index.ctp:25
+#: View/Regions/index.ctp:17
+#: View/Regions/view.ctp:49
+#: View/Stores/index.ctp:17
+#: View/Stores/view.ctp:57;94
+#: View/Transports/index.ctp:25
+#: View/Transports/view.ctp:68
+#: View/Units/index.ctp:17
+msgid "Edit"
+msgstr ""
+
+#: View/Countries/admin_index.ctp:28
+#: View/Countries/index.ctp:28
+#: View/Currencies/admin_index.ctp:26
+#: View/Currencies/index.ctp:26
+#: View/Departments/index.ctp:28
+#: View/Posts/index.ctp:30
+#: View/Products/index.ctp:34
+#: View/Regions/index.ctp:26
+#: View/Stores/index.ctp:26
+#: View/Transports/index.ctp:34
+#: View/Units/index.ctp:26
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Countries/admin_index.ctp:33
+#: View/Countries/index.ctp:33
+#: View/Currencies/admin_index.ctp:31
+#: View/Currencies/index.ctp:31
+#: View/Departments/index.ctp:33
+#: View/Posts/index.ctp:35
+#: View/Products/index.ctp:39
+#: View/Regions/index.ctp:31
+#: View/Stores/index.ctp:31
+#: View/Transports/index.ctp:39
+#: View/Units/index.ctp:31
+msgid "previous"
+msgstr ""
+
+#: View/Countries/admin_index.ctp:35
+#: View/Countries/index.ctp:35
+#: View/Currencies/admin_index.ctp:33
+#: View/Currencies/index.ctp:33
+#: View/Departments/index.ctp:35
+#: View/Posts/index.ctp:37
+#: View/Products/index.ctp:41
+#: View/Regions/index.ctp:33
+#: View/Stores/index.ctp:33
+#: View/Transports/index.ctp:41
+#: View/Units/index.ctp:33
+msgid "next"
+msgstr ""
+
+#: View/Countries/admin_index.ctp:42
+#: View/Countries/admin_view.ctp:27
+#: View/Countries/index.ctp:42
+#: View/Countries/view.ctp:27
+#: View/Products/add.ctp:22
+#: View/Products/edit.ctp:24
+#: View/Products/index.ctp:52
+#: View/Products/view.ctp:41
+msgid "New Country"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:2
+#: View/Countries/view.ctp:2
+#: View/Products/view.ctp:24
+msgid "Country"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:4;45;78
+#: View/Countries/view.ctp:4;45;78
+#: View/Regions/view.ctp:14
+msgid "Country Id"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:9;42;77
+#: View/Countries/view.ctp:9;42;77
+#: View/Currencies/admin_view.ctp:9
+#: View/Currencies/view.ctp:9
+#: View/Departments/view.ctp:9;85
+#: View/Posts/view.ctp:9;45
+#: View/Products/view.ctp:9
+#: View/Regions/view.ctp:9;38
+#: View/Stores/view.ctp:9;77
+#: View/Transports/view.ctp:9;55
+msgid "Name"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:14
+#: View/Countries/view.ctp:14
+#: View/Currencies/admin_view.ctp:2
+#: View/Currencies/view.ctp:2
+msgid "Currency"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:24
+#: View/Countries/edit.ctp:4
+#: View/Countries/view.ctp:24
+msgid "Edit Country"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:25
+#: View/Countries/view.ctp:25
+msgid "Delete Country"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:37
+#: View/Countries/view.ctp:37
+msgid "Related Products"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:41
+#: View/Countries/view.ctp:41
+#: View/Products/view.ctp:4
+#: View/Stores/view.ctp:40
+msgid "Product Id"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:43
+#: View/Countries/view.ctp:43
+#: View/Products/view.ctp:14
+msgid "Description"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:44
+#: View/Countries/view.ctp:44
+#: View/Units/view.ctp:4
+msgid "Unit Id"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:72
+#: View/Countries/view.ctp:72
+msgid "Related Regions"
+msgstr ""
+
+#: View/Countries/admin_view.ctp:76
+#: View/Countries/view.ctp:76
+#: View/Regions/view.ctp:4;39
+msgid "Region Id"
+msgstr ""
+
+#: View/Currencies/add.ctp:4
+msgid "Add Currency"
+msgstr ""
+
+#: View/Currencies/admin_add.ctp:4
+msgid "Admin Add Currency"
+msgstr ""
+
+#: View/Currencies/admin_edit.ctp:4
+msgid "Admin Edit Currency"
+msgstr ""
+
+#: View/Currencies/admin_index.ctp:2
+#: View/Currencies/index.ctp:2
+msgid "Currencies"
+msgstr ""
+
+#: View/Currencies/admin_view.ctp:4
+#: View/Currencies/view.ctp:4
+msgid "Currency Id"
+msgstr ""
+
+#: View/Currencies/admin_view.ctp:14
+#: View/Currencies/view.ctp:14
+msgid "Dollar Parity"
+msgstr ""
+
+#: View/Currencies/admin_view.ctp:24
+#: View/Currencies/edit.ctp:4
+#: View/Currencies/view.ctp:24
+msgid "Edit Currency"
+msgstr ""
+
+#: View/Currencies/admin_view.ctp:25
+#: View/Currencies/view.ctp:25
+msgid "Delete Currency"
+msgstr ""
+
+#: View/Departments/add.ctp:4
+msgid "Add Department"
+msgstr ""
+
+#: View/Departments/add.ctp:16
+#: View/Departments/edit.ctp:18
+#: View/Departments/view.ctp:26
+#: View/Posts/add.ctp:19
+#: View/Posts/edit.ctp:21
+#: View/Posts/index.ctp:45
+#: View/Posts/view.ctp:33
+#: View/Regions/add.ctp:17
+#: View/Regions/edit.ctp:19
+#: View/Regions/index.ctp:41
+#: View/Regions/view.ctp:28
+msgid "List Departments"
+msgstr ""
+
+#: View/Departments/add.ctp:19
+#: View/Departments/edit.ctp:21
+#: View/Departments/index.ctp:45
+#: View/Departments/view.ctp:30
+msgid "List Addresses"
+msgstr ""
+
+#: View/Departments/add.ctp:20
+#: View/Departments/edit.ctp:22
+#: View/Departments/index.ctp:46
+#: View/Departments/view.ctp:31;75
+msgid "New Address"
+msgstr ""
+
+#: View/Departments/add.ctp:21
+#: View/Departments/edit.ctp:23
+#: View/Departments/index.ctp:47
+#: View/Departments/view.ctp:32
+#: View/Posts/add.ctp:18
+#: View/Posts/edit.ctp:20
+#: View/Posts/view.ctp:31
+#: View/Transports/add.ctp:23
+#: View/Transports/edit.ctp:25
+#: View/Transports/index.ctp:51
+#: View/Transports/view.ctp:45
+msgid "List Posts"
+msgstr ""
+
+#: View/Departments/add.ctp:22
+#: View/Departments/edit.ctp:24
+#: View/Departments/index.ctp:48
+#: View/Departments/view.ctp:33;108
+#: View/Posts/index.ctp:44
+#: View/Posts/view.ctp:32
+#: View/Transports/add.ctp:24
+#: View/Transports/edit.ctp:26
+#: View/Transports/index.ctp:52
+#: View/Transports/view.ctp:46;78
+msgid "New Post"
+msgstr ""
+
+#: View/Departments/edit.ctp:4
+#: View/Departments/view.ctp:24
+msgid "Edit Department"
+msgstr ""
+
+#: View/Departments/index.ctp:2
+msgid "Departments"
+msgstr ""
+
+#: View/Departments/index.ctp:42
+#: View/Departments/view.ctp:27
+#: View/Posts/add.ctp:20
+#: View/Posts/edit.ctp:22
+#: View/Posts/index.ctp:46
+#: View/Posts/view.ctp:34
+#: View/Regions/add.ctp:18
+#: View/Regions/edit.ctp:20
+#: View/Regions/index.ctp:42
+#: View/Regions/view.ctp:29;59
+msgid "New Department"
+msgstr ""
+
+#: View/Departments/view.ctp:2
+#: View/Posts/view.ctp:19
+msgid "Department"
+msgstr ""
+
+#: View/Departments/view.ctp:4;48;87
+#: View/Regions/view.ctp:37
+#: View/Transports/view.ctp:57
+msgid "Department Id"
+msgstr ""
+
+#: View/Departments/view.ctp:14
+#: View/Regions/view.ctp:2
+msgid "Region"
+msgstr ""
+
+#: View/Departments/view.ctp:25
+msgid "Delete Department"
+msgstr ""
+
+#: View/Departments/view.ctp:37
+msgid "Related Addresses"
+msgstr ""
+
+#: View/Departments/view.ctp:41
+msgid "Customer Id"
+msgstr ""
+
+#: View/Departments/view.ctp:42
+msgid "Address Type Id"
+msgstr ""
+
+#: View/Departments/view.ctp:43
+msgid "Street Type"
+msgstr ""
+
+#: View/Departments/view.ctp:44
+msgid "Street Name"
+msgstr ""
+
+#: View/Departments/view.ctp:45
+msgid "Number"
+msgstr ""
+
+#: View/Departments/view.ctp:46
+msgid "Block"
+msgstr ""
+
+#: View/Departments/view.ctp:47
+msgid "Apartment"
+msgstr ""
+
+#: View/Departments/view.ctp:49
+msgid "Comments"
+msgstr ""
+
+#: View/Departments/view.ctp:80
+#: View/Transports/view.ctp:50
+msgid "Related Posts"
+msgstr ""
+
+#: View/Departments/view.ctp:84
+#: View/Posts/view.ctp:4
+#: View/Transports/view.ctp:54
+msgid "Post Id"
+msgstr ""
+
+#: View/Departments/view.ctp:86
+#: View/Posts/view.ctp:14
+#: View/Transports/view.ctp:56
+msgid "Address"
+msgstr ""
+
+#: View/Posts/add.ctp:4
+msgid "Add Post"
+msgstr ""
+
+#: View/Posts/add.ctp:21
+#: View/Posts/edit.ctp:23
+#: View/Posts/index.ctp:47
+#: View/Posts/view.ctp:35
+#: View/Stores/add.ctp:19
+#: View/Stores/edit.ctp:21
+#: View/Stores/index.ctp:43
+#: View/Stores/view.ctp:30
+#: View/Transports/add.ctp:20
+#: View/Transports/edit.ctp:22
+#: View/Transports/view.ctp:41
+msgid "List Transports"
+msgstr ""
+
+#: View/Posts/add.ctp:22
+#: View/Posts/edit.ctp:24
+#: View/Posts/index.ctp:48
+#: View/Posts/view.ctp:36;72
+#: View/Stores/add.ctp:20
+#: View/Stores/edit.ctp:22
+#: View/Stores/index.ctp:44
+#: View/Stores/view.ctp:31;104
+#: View/Transports/index.ctp:48
+#: View/Transports/view.ctp:42
+msgid "New Transport"
+msgstr ""
+
+#: View/Posts/edit.ctp:4
+#: View/Posts/view.ctp:29
+msgid "Edit Post"
+msgstr ""
+
+#: View/Posts/index.ctp:2
+msgid "Posts"
+msgstr ""
+
+#: View/Posts/view.ctp:2
+msgid "Post"
+msgstr ""
+
+#: View/Posts/view.ctp:30
+msgid "Delete Post"
+msgstr ""
+
+#: View/Posts/view.ctp:40
+#: View/Stores/view.ctp:72
+msgid "Related Transports"
+msgstr ""
+
+#: View/Posts/view.ctp:44
+#: View/Stores/view.ctp:76
+#: View/Transports/view.ctp:4
+msgid "Transport Id"
+msgstr ""
+
+#: View/Posts/view.ctp:46
+#: View/Stores/view.ctp:78
+#: View/Transports/view.ctp:14
+msgid "Phone"
+msgstr ""
+
+#: View/Posts/view.ctp:47
+#: View/Stores/view.ctp:79
+#: View/Transports/view.ctp:19
+msgid "Mobile"
+msgstr ""
+
+#: View/Posts/view.ctp:48
+#: View/Stores/view.ctp:80
+#: View/Transports/view.ctp:24
+msgid "Email"
+msgstr ""
+
+#: View/Posts/view.ctp:49
+#: View/Stores/view.ctp:4;39;81
+msgid "Store Id"
+msgstr ""
+
+#: View/Products/add.ctp:4
+msgid "Add Product"
+msgstr ""
+
+#: View/Products/add.ctp:19
+#: View/Products/edit.ctp:21
+#: View/Products/index.ctp:49
+#: View/Products/view.ctp:38
+#: View/Units/add.ctp:17
+#: View/Units/edit.ctp:18
+#: View/Units/view.ctp:26
+msgid "List Units"
+msgstr ""
+
+#: View/Products/add.ctp:20
+#: View/Products/edit.ctp:22
+#: View/Products/index.ctp:50
+#: View/Products/view.ctp:39
+#: View/Units/index.ctp:40
+#: View/Units/view.ctp:27
+msgid "New Unit"
+msgstr ""
+
+#: View/Products/edit.ctp:4
+#: View/Products/view.ctp:34
+msgid "Edit Product"
+msgstr ""
+
+#: View/Products/index.ctp:2
+msgid "Products"
+msgstr ""
+
+#: View/Products/view.ctp:2
+msgid "Product"
+msgstr ""
+
+#: View/Products/view.ctp:19
+#: View/Units/view.ctp:2
+msgid "Unit"
+msgstr ""
+
+#: View/Products/view.ctp:35
+msgid "Delete Product"
+msgstr ""
+
+#: View/Regions/add.ctp:4
+msgid "Add Region"
+msgstr ""
+
+#: View/Regions/edit.ctp:4
+#: View/Regions/view.ctp:24
+msgid "Edit Region"
+msgstr ""
+
+#: View/Regions/index.ctp:2
+msgid "Regions"
+msgstr ""
+
+#: View/Regions/view.ctp:25
+msgid "Delete Region"
+msgstr ""
+
+#: View/Regions/view.ctp:33
+msgid "Related Departments"
+msgstr ""
+
+#: View/Stores/add.ctp:4
+msgid "Add Store"
+msgstr ""
+
+#: View/Stores/add.ctp:16
+#: View/Stores/edit.ctp:18
+#: View/Stores/view.ctp:26
+#: View/Transports/add.ctp:21
+#: View/Transports/edit.ctp:23
+#: View/Transports/index.ctp:49
+#: View/Transports/view.ctp:43
+msgid "List Stores"
+msgstr ""
+
+#: View/Stores/add.ctp:17
+#: View/Stores/edit.ctp:19
+#: View/Stores/index.ctp:41
+#: View/Stores/view.ctp:28
+msgid "List Inventories"
+msgstr ""
+
+#: View/Stores/add.ctp:18
+#: View/Stores/edit.ctp:20
+#: View/Stores/index.ctp:42
+#: View/Stores/view.ctp:29;67
+msgid "New Inventory"
+msgstr ""
+
+#: View/Stores/edit.ctp:4
+#: View/Stores/view.ctp:24
+msgid "Edit Store"
+msgstr ""
+
+#: View/Stores/index.ctp:2
+msgid "Stores"
+msgstr ""
+
+#: View/Stores/index.ctp:40
+#: View/Stores/view.ctp:27
+#: View/Transports/add.ctp:22
+#: View/Transports/edit.ctp:24
+#: View/Transports/index.ctp:50
+#: View/Transports/view.ctp:44
+msgid "New Store"
+msgstr ""
+
+#: View/Stores/view.ctp:2
+#: View/Transports/view.ctp:29
+msgid "Store"
+msgstr ""
+
+#: View/Stores/view.ctp:14
+msgid "Comment"
+msgstr ""
+
+#: View/Stores/view.ctp:25
+msgid "Delete Store"
+msgstr ""
+
+#: View/Stores/view.ctp:35
+msgid "Related Inventories"
+msgstr ""
+
+#: View/Stores/view.ctp:41
+msgid "Inv Minimun"
+msgstr ""
+
+#: View/Stores/view.ctp:42
+msgid "Inv Critical"
+msgstr ""
+
+#: View/Stores/view.ctp:43
+msgid "Inv Maximun"
+msgstr ""
+
+#: View/Stores/view.ctp:44
+msgid "Inv Stock"
+msgstr ""
+
+#: View/Transports/add.ctp:4
+msgid "Add Transport"
+msgstr ""
+
+#: View/Transports/edit.ctp:4
+#: View/Transports/view.ctp:39
+msgid "Edit Transport"
+msgstr ""
+
+#: View/Transports/index.ctp:2
+msgid "Transports"
+msgstr ""
+
+#: View/Transports/view.ctp:2
+msgid "Transport"
+msgstr ""
+
+#: View/Transports/view.ctp:40
+msgid "Delete Transport"
+msgstr ""
+
+#: View/Units/add.ctp:4
+msgid "Add Unit"
+msgstr ""
+
+#: View/Units/edit.ctp:4
+#: View/Units/view.ctp:24
+msgid "Edit Unit"
+msgstr ""
+
+#: View/Units/index.ctp:2
+msgid "Units"
+msgstr ""
+
+#: View/Units/view.ctp:9
+msgid "Unit Name"
+msgstr ""
+
+#: View/Units/view.ctp:14
+msgid "Unit Parity"
+msgstr ""
+
+#: View/Units/view.ctp:25
+msgid "Delete Unit"
+msgstr ""
+
+#: View/ViewBlock.php:80
+msgid "A view block with the name '%s' is already/still open."
+msgstr ""
+
+#: Model/Country.php:validation for field country_id
+msgid "No more than 2 alpha characters are allowed"
+msgstr ""
+
+#: Model/Country.php:validation for field country_id
+msgid "No less than 2 alpha characters are allowed"
+msgstr ""
+

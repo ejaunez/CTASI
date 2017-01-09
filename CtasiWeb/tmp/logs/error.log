@@ -1,0 +1,2376 @@
+2014-06-17 18:14:40 Error: [MissingActionException] Action CurrenciesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'CurrenciesController',
+  'action' => 'display',
+)
+Request URL: /simktweb/
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-20 04:10:22 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php, line 92]
+2014-06-20 04:10:22 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 92, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 92, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 04:10:53 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-20 04:10:53 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 04:11:01 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php, line 92]
+2014-06-20 04:11:01 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 92, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 92, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 04:11:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php, line 66]
+2014-06-20 04:11:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /simktweb/currencies/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 66, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 66, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 04:55:54 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-20 04:55:54 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 04:56:04 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/products
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 04:56:09 Error: [MissingControllerException] Controller class RegionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RegionsController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/regions
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-20 04:56:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php, line 66]
+2014-06-20 04:56:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /simktweb/currencies/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 66, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 66, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 06:30:38 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-20 06:30:38 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 06:30:51 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-20 06:30:51 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 06:30:55 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-20 06:30:55 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 06:31:02 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-20 06:31:02 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-20 06:33:44 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-20 06:33:44 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/view/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 19:36:33 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-26 19:36:33 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/view/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 19:37:11 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-26 19:37:11 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 19:37:15 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-26 19:37:15 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 19:38:05 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'country_id' doesn't have a default value
+Request URL: /simktweb/countries/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `si...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `si...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Country), Array, Array)
+#4 C:\PHPCakeProjects\SimktWeb\Controller\CountriesController.php(52): Model->save(Array)
+#5 [internal function]: CountriesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-26 19:38:29 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-26 19:38:29 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/view/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 19:39:06 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-26 19:39:06 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 19:39:45 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/products
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-26 19:39:55 Error: [MissingControllerException] Controller class RegionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RegionsController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/regions
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-26 19:40:22 Error: [MissingControllerException] Controller class RegionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RegionsController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/regions
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-26 19:40:53 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-26 19:40:53 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/view/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 18:31:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Unit.id' in 'where clause'
+Request URL: /simktweb/products
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Unit`.`...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Unit`.`...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1331): DboSource->fetchAll('SELECT `Unit`.`...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(Product), Object(AppModel), 'belongsTo', 'Unit', Array, Array, true, Array, -1, Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Product), Array)
+#6 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\PHPCakeProjects\SimktWeb\Controller\ProductsController.php(26): PaginatorComponent->paginate()
+#9 [internal function]: ProductsController->index()
+#10 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#13 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-27 18:37:36 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 18:37:36 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/units/edit/CJ
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 18:40:15 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 18:40:15 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/units/view/UN
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 18:40:22 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 18:40:22 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/view/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 18:40:30 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 18:40:30 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/products/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 18:42:48 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 18:42:48 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/products/edit/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 18:43:13 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 18:43:13 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 18:43:22 Error: [MissingControllerException] Controller class RegionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RegionsController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/regions
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 18:57:48 Error: [MissingControllerException] Controller class RegionsController could not be found.
+Exception Attributes: array (
+  'class' => 'RegionsController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/regions
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 19:03:43 Error: [MissingViewException] View file "C:\PHPCakeProjects\SimktWeb\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\SimktWeb\\View\\Posts\\index.ctp',
+)
+Request URL: /simktweb/posts
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 23:50:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2006] MySQL server has gone away',
+  'enabled' => true,
+)
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\PHPCakeProjects\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('simkt2db')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1128): Model->setDataSource('simkt2db')
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3501): Model->setSource('currencies')
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3024): Model->getDataSource()
+#6 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2937): Model->_findCount('before', Array)
+#7 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2872): Model->buildQuery('count', Array)
+#8 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2787): Model->find('count', Array)
+#9 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(36): Model->exists('CLP')
+#10 [internal function]: CurrenciesController->view('CLP')
+#11 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#12 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#14 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-27 23:50:49 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 23:50:49 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 23:50:56 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-27 23:50:56 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-28 08:22:35 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-28 08:22:35 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-28 08:23:53 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-28 08:23:53 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-28 08:39:17 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-28 08:39:17 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-28 08:39:25 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-28 08:39:25 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/currencies/edit/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-29 02:47:18 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-29 02:47:18 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/edit/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-29 03:16:32 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-29 03:16:32 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/regions/edit/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-29 03:20:32 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-29 03:20:32 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/departments/view/1101
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-29 03:20:40 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-29 03:20:40 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/departments/edit/1101
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-29 03:56:23 Error: [MissingControllerException] Controller class AddressesController could not be found.
+Exception Attributes: array (
+  'class' => 'AddressesController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-29 03:56:28 Error: [MissingControllerException] Controller class AddressesController could not be found.
+Exception Attributes: array (
+  'class' => 'AddressesController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/addresses/add
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-29 03:57:27 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-29 03:57:27 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/departments/view/8412
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-29 03:58:14 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-29 03:58:14 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/departments/view/8412
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-29 03:59:08 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-06-29 03:59:08 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/regions/view/8
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 17:45:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Currency.country_id' in 'on clause'
+Request URL: /simktweb/currencies
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Currenc...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Currenc...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Currenc...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Currency), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: CurrenciesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-22 19:22:33 Error: [MissingControllerException] Controller class CustomerController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomerController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/customer
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-22 19:22:39 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/customers
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-22 19:23:52 Error: [MissingTableException] Table addresses for model Address was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'addresses',
+  'class' => 'Address',
+  'ds' => 'default',
+)
+Request URL: /simktweb/departments/view/15101
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3501): Model->setSource('addresses')
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1133): Model->getDataSource()
+#2 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Department), Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#4 C:\PHPCakeProjects\SimktWeb\Controller\DepartmentsController.php(41): Model->find('first', Array)
+#5 [internal function]: DepartmentsController->view('15101')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentsController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DepartmentsController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-22 19:24:20 Error: [MissingTableException] Table addresses for model Address was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'addresses',
+  'class' => 'Address',
+  'ds' => 'default',
+)
+Request URL: /simktweb/departments/view/1101
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3501): Model->setSource('addresses')
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1133): Model->getDataSource()
+#2 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Department), Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#4 C:\PHPCakeProjects\SimktWeb\Controller\DepartmentsController.php(41): Model->find('first', Array)
+#5 [internal function]: DepartmentsController->view('1101')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentsController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DepartmentsController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-22 19:24:25 Error: [MissingTableException] Table addresses for model Address was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'addresses',
+  'class' => 'Address',
+  'ds' => 'default',
+)
+Request URL: /simktweb/departments/view/1101
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3501): Model->setSource('addresses')
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1133): Model->getDataSource()
+#2 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Department), Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#4 C:\PHPCakeProjects\SimktWeb\Controller\DepartmentsController.php(41): Model->find('first', Array)
+#5 [internal function]: DepartmentsController->view('1101')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentsController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DepartmentsController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-22 19:25:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Currency.country_id' in 'on clause'
+Request URL: /simktweb/currencies
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Currenc...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Currenc...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Currenc...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Currency), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: CurrenciesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-23 18:54:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Currency.country_id' in 'on clause'
+Request URL: /simktweb/currencies/view/PEN
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Currenc...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Currenc...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Currenc...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Currency), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(40): Model->find('first', Array)
+#7 [internal function]: CurrenciesController->view('PEN')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-23 18:55:57 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2014-07-23 18:55:57 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/view/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-23 18:57:27 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'product_id' doesn't have a default value
+Request URL: /simktweb/products/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `si...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `si...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Product), Array, Array)
+#4 C:\PHPCakeProjects\SimktWeb\Controller\ProductsController.php(52): Model->save(Array)
+#5 [internal function]: ProductsController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-18 02:21:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Currency.country_id' in 'on clause'
+Request URL: /simktweb/currencies/view/CLP
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Currenc...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Currenc...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Currenc...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Currency), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(40): Model->find('first', Array)
+#7 [internal function]: CurrenciesController->view('CLP')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-18 02:21:55 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2015-04-18 02:21:55 Error: [FatalErrorException] Unsupported operand types
+Request URL: /simktweb/countries/view/CL
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 02:24:46 Error: [MissingControllerException] Controller class AddressesController could not be found.
+Exception Attributes: array (
+  'class' => 'AddressesController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 02:32:23 Error: [MissingControllerException] Controller class AddressesController could not be found.
+Exception Attributes: array (
+  'class' => 'AddressesController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 02:33:40 Error: [MissingTableException] Table addresses for model Address was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'addresses',
+  'class' => 'Address',
+  'ds' => 'default',
+)
+Request URL: /simktweb/departments/view/8412
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3501): Model->setSource('addresses')
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1133): Model->getDataSource()
+#2 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Department), Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#4 C:\PHPCakeProjects\SimktWeb\Controller\DepartmentsController.php(41): Model->find('first', Array)
+#5 [internal function]: DepartmentsController->view('8412')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentsController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DepartmentsController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-18 02:35:19 Error: [MissingTableException] Table addresses for model Address was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'addresses',
+  'class' => 'Address',
+  'ds' => 'default',
+)
+Request URL: /simktweb/departments/view/2301
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3501): Model->setSource('addresses')
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1133): Model->getDataSource()
+#2 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Department), Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#4 C:\PHPCakeProjects\SimktWeb\Controller\DepartmentsController.php(41): Model->find('first', Array)
+#5 [internal function]: DepartmentsController->view('2301')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentsController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DepartmentsController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-02-25 01:48:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Currency.country_id' in 'on clause'
+Request URL: /simktweb/currencies
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Currenc...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Currenc...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Currenc...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Currency), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: CurrenciesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-02-25 02:08:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Currency.country_id' in 'on clause'
+Request URL: /simktweb/currencies/view/CAD
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Currenc...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Currenc...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Currenc...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Currency), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(40): Model->find('first', Array)
+#7 [internal function]: CurrenciesController->view('CAD')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-02-25 02:08:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Currency.country_id' in 'on clause'
+Request URL: /simktweb/currencies/view/USD
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Currenc...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Currenc...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Currenc...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Currency), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\PHPCakeProjects\SimktWeb\Controller\CurrenciesController.php(40): Model->find('first', Array)
+#7 [internal function]: CurrenciesController->view('USD')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-02-25 02:25:10 Error: [MissingControllerException] Controller class AddressesController could not be found.
+Exception Attributes: array (
+  'class' => 'AddressesController',
+  'plugin' => NULL,
+)
+Request URL: /simktweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\SimktWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-02 14:45:11 Error: [MissingDatasourceConfigException] The datasource configuration "simkt2db" was not found in database.php
+Exception Attributes: array (
+  'config' => 'simkt2db',
+)
+Request URL: /ctasiweb/currencies
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('simkt2db')
+#1 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3479): ConnectionManager::getDataSource('simkt2db')
+#2 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1128): Model->setDataSource('simkt2db')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3501): Model->setSource('currencies')
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\CtasiWeb\Controller\CurrenciesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: CurrenciesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CurrenciesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CurrenciesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-04-02 22:26:34 Error: [MissingControllerException] Controller class AddressesController could not be found.
+Exception Attributes: array (
+  'class' => 'AddressesController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-02 22:47:46 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Addresses\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Addresses\\index.ctp',
+)
+Request URL: /ctasiweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-02 22:55:37 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/customers
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-02 23:00:52 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'customer_id' doesn't have a default value
+Request URL: /ctasiweb/customers/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Customer), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(52): Model->save(Array)
+#5 [internal function]: CustomersController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-03 02:28:53 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'address_id' doesn't have a default value
+Request URL: /ctasiweb/addresses/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Address), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\AddressesController.php(59): Model->save(Array)
+#5 [internal function]: AddressesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AddressesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-03 03:36:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Address.country_id' in 'on clause'
+Request URL: /ctasiweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Address...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Address...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Address...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Address), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\CtasiWeb\Controller\AddressesController.php(33): PaginatorComponent->paginate()
+#8 [internal function]: AddressesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AddressesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-04-03 03:38:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Address.country_id' in 'on clause'
+Request URL: /ctasiweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Address...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Address...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Address...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Address), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\CtasiWeb\Controller\AddressesController.php(33): PaginatorComponent->paginate()
+#8 [internal function]: AddressesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AddressesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-04-03 20:24:46 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-03 20:24:47 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-04 06:59:00 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-04 06:59:00 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-04 06:59:07 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-04 06:59:07 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-06 03:31:40 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-06 03:31:40 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-06 03:32:07 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-06 03:32:07 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-06 03:37:50 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-06 03:37:50 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-06 04:13:36 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-06 04:13:36 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-06 04:13:46 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-06 04:13:46 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/customers/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-06 04:18:48 Error: Fatal Error (1): Unsupported operand types in [C:\PHPCakeProjects\lib\Cake\View\Helper\FormHelper.php, line 1802]
+2016-04-06 04:18:48 Error: [FatalErrorException] Unsupported operand types
+Request URL: /ctasiweb/addresses/view/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\PHPCakeProje...', 1802, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-08 04:40:29 Error: Fatal Error (64): Cannot redeclare Department::$belongsTo in [C:\PHPCakeProjects\CtasiWeb\Model\Department.php, line 59]
+2016-04-08 04:40:29 Error: [FatalErrorException] Cannot redeclare Department::$belongsTo
+Request URL: /ctasiweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\PHPCakeProje...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\PHPCakeProje...', 59, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\PHPCakeProje...', 59, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-08 04:41:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Department.address_id' in 'on clause'
+Request URL: /ctasiweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Address...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Address...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Address...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Address), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\CtasiWeb\Controller\AddressesController.php(33): PaginatorComponent->paginate()
+#8 [internal function]: AddressesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AddressesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-04-09 01:53:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Department.address_id' in 'on clause'
+Request URL: /ctasiweb/addresses
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Address...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Address...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Address...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Address), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\PHPCakeProjects\CtasiWeb\Controller\AddressesController.php(33): PaginatorComponent->paginate()
+#8 [internal function]: AddressesController->index()
+#9 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AddressesController), Array)
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AddressesController), Object(CakeRequest))
+#12 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-04-15 02:46:45 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/customers
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(CustomersController))
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:07:41 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/customers
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(CustomersController))
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:07:50 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/customers
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(CustomersController))
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:07:53 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/customers
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(CustomersController))
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:12:48 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/customers
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(CustomersController))
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:14:35 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Users\\index.ctp',
+)
+Request URL: /ctasiweb/users
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:45:59 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/user/add
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 04:47:03 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\PHPCakeProjects\CtasiWeb\Controller\UsersController.php, line 32]
+2016-04-15 04:47:03 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /ctasiweb/users/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 32, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 32, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-17 04:44:31 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-17 04:46:23 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-17 05:37:16 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-17 17:28:01 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Users\\login.ctp',
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-17 21:18:34 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Flash')
+#1 C:\PHPCakeProjects\lib\Cake\View\View.php(838): HelperCollection->__isset('Flash')
+#2 C:\PHPCakeProjects\CtasiWeb\View\Users\login.ctp(4): View->__get('Flash')
+#3 C:\PHPCakeProjects\lib\Cake\View\View.php(949): include('C:\\PHPCakeProje...')
+#4 C:\PHPCakeProjects\lib\Cake\View\View.php(911): View->_evaluate('C:\\PHPCakeProje...', Array)
+#5 C:\PHPCakeProjects\lib\Cake\View\View.php(471): View->_render('C:\\PHPCakeProje...')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-17 21:20:05 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Flash')
+#1 C:\PHPCakeProjects\lib\Cake\View\View.php(838): HelperCollection->__isset('Flash')
+#2 C:\PHPCakeProjects\CtasiWeb\View\Users\login.ctp(4): View->__get('Flash')
+#3 C:\PHPCakeProjects\lib\Cake\View\View.php(949): include('C:\\PHPCakeProje...')
+#4 C:\PHPCakeProjects\lib\Cake\View\View.php(911): View->_evaluate('C:\\PHPCakeProje...', Array)
+#5 C:\PHPCakeProjects\lib\Cake\View\View.php(471): View->_render('C:\\PHPCakeProje...')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-17 22:51:43 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Flash')
+#1 C:\PHPCakeProjects\lib\Cake\View\View.php(838): HelperCollection->__isset('Flash')
+#2 C:\PHPCakeProjects\CtasiWeb\View\Users\login.ctp(4): View->__get('Flash')
+#3 C:\PHPCakeProjects\lib\Cake\View\View.php(949): include('C:\\PHPCakeProje...')
+#4 C:\PHPCakeProjects\lib\Cake\View\View.php(911): View->_evaluate('C:\\PHPCakeProje...', Array)
+#5 C:\PHPCakeProjects\lib\Cake\View\View.php(471): View->_render('C:\\PHPCakeProje...')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-17 22:51:47 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /ctasiweb/users/login
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Flash')
+#1 C:\PHPCakeProjects\lib\Cake\View\View.php(838): HelperCollection->__isset('Flash')
+#2 C:\PHPCakeProjects\CtasiWeb\View\Users\login.ctp(4): View->__get('Flash')
+#3 C:\PHPCakeProjects\lib\Cake\View\View.php(949): include('C:\\PHPCakeProje...')
+#4 C:\PHPCakeProjects\lib\Cake\View\View.php(911): View->_evaluate('C:\\PHPCakeProje...', Array)
+#5 C:\PHPCakeProjects\lib\Cake\View\View.php(471): View->_render('C:\\PHPCakeProje...')
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-17 22:55:45 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\PHPCakeProjects\CtasiWeb\Controller\UsersController.php, line 46]
+2016-04-17 22:55:45 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /ctasiweb/users/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 46, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 46, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-19 04:38:56 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\PHPCakeProjects\CtasiWeb\Controller\UsersController.php, line 42]
+2016-04-19 04:38:56 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /ctasiweb/users/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 42, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 42, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-20 04:09:55 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Users\\index.ctp',
+)
+Request URL: /ctasiweb/users
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-20 04:20:22 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Users\\index.ctp',
+)
+Request URL: /ctasiweb/users?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14611182661593
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-20 16:27:20 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Users\\index.ctp',
+)
+Request URL: /ctasiweb/users
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-22 05:12:25 Error: [MissingActionException] Action CustomersController::searchNames() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'searchNames',
+)
+Request URL: /ctasiweb/customers/searchNames/eduardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-22 05:12:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'group statement'
+Request URL: /ctasiweb/customers/search_names/eduardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(208): Model->find('all', Array)
+#7 [internal function]: CustomersController->search_names('eduardo')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-22 05:13:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'group statement'
+Request URL: /ctasiweb/customers/search_names/eduardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(208): Model->find('all', Array)
+#7 [internal function]: CustomersController->search_names('eduardo')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-22 05:14:11 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Customers\search_names.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Customers\\search_names.ctp',
+)
+Request URL: /ctasiweb/customers/search_names/eduardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-02 20:40:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1370 execute command denied to user 'ctasiexpl'@'%' for routine 'customer.concat_ws'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(59): Model->find('list', Array)
+#7 [internal function]: SalesController->add()
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-02 20:41:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1370 execute command denied to user 'ctasiexpl'@'%' for routine 'customer.concat_ws'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(59): Model->find('list', Array)
+#7 [internal function]: SalesController->add()
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-02 20:52:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customers.names' in 'field list'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(59): Model->find('list', Array)
+#7 [internal function]: SalesController->add()
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-02 20:53:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customers.names' in 'field list'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(59): Model->find('list', Array)
+#7 [internal function]: SalesController->add()
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-02 20:55:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customers.names' in 'field list'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(59): Model->find('list', Array)
+#7 [internal function]: SalesController->add()
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-14 02:57:22 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Sales\a_d_d.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Sales\\a_d_d.ctp',
+)
+Request URL: /ctasiweb/sales/ADD
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-19 22:45:16 Error: [MissingActionException] Action CustomersController::search_names() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'search_names',
+)
+Request URL: /ctasiweb/customers/search_names/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-20 18:20:25 Error: Fatal Error (1): Call to a member function div() on a non-object in [C:\PHPCakeProjects\CtasiWeb\View\Sales\add.ctp, line 3]
+2016-05-20 18:20:25 Error: [FatalErrorException] Call to a member function div() on a non-object
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 18:21:39 Error: Fatal Error (1): Call to a member function div() on a non-object in [C:\PHPCakeProjects\CtasiWeb\View\Sales\add.ctp, line 3]
+2016-05-20 18:21:39 Error: [FatalErrorException] Call to a member function div() on a non-object
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 18:22:36 Error: Fatal Error (1): Call to a member function div() on a non-object in [C:\PHPCakeProjects\CtasiWeb\View\Sales\add.ctp, line 3]
+2016-05-20 18:22:36 Error: [FatalErrorException] Call to a member function div() on a non-object
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 3, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-27 03:31:08 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Customers\search_full_name.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Customers\\search_full_name.ctp',
+)
+Request URL: /ctasiweb/customers/searchFullName/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-27 03:32:09 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Customers\search_full_name.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Customers\\search_full_name.ctp',
+)
+Request URL: /ctasiweb/customers/searchFullName/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-27 03:33:27 Error: [MissingActionException] Action CustomersController::searchFullNames() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'searchFullNames',
+)
+Request URL: /ctasiweb/customers/searchFullNames/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-27 03:33:38 Error: [MissingViewException] View file "C:\PHPCakeProjects\CtasiWeb\View\Customers\search_full_name.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\PHPCakeProjects\\CtasiWeb\\View\\Customers\\search_full_name.ctp',
+)
+Request URL: /ctasiweb/customers/searchFullName/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-03 06:16:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Customer`.`names` AS `name` FROM `ctasi`.`customers` AS `Customer`   W' at line 1
+Request URL: /ctasiweb/customers/getNamesByToken/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(240): Model->find('list', Array)
+#7 [internal function]: CustomersController->getNamesByToken('ardo')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-03 23:46:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Customer`.`names` AS `name` FROM `ctasi`.`customers` AS `Customer`   W' at line 1
+Request URL: /ctasiweb/customers/getNamesByToken/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Custome...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Custome...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Customer), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('list', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(240): Model->find('list', Array)
+#7 [internal function]: CustomersController->getNamesByToken('ardo')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-04 00:28:43 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'Customer' in field list
+Request URL: /ctasiweb/customers/getNamesByToken/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT DISTINCT...')
+#4 [internal function]: DboSource->query('SELECT DISTINCT...')
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3309): call_user_func_array(Array, Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(242): Model->query('SELECT DISTINCT...')
+#7 [internal function]: CustomersController->getNamesByToken('ardo')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-04 00:29:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'
+Request URL: /ctasiweb/customers/getNamesByToken/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT DISTINCT...')
+#4 [internal function]: DboSource->query('SELECT DISTINCT...')
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3309): call_user_func_array(Array, Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(242): Model->query('SELECT DISTINCT...')
+#7 [internal function]: CustomersController->getNamesByToken('ardo')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-04 00:30:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS Customer' at line 1
+Request URL: /ctasiweb/customers/getNamesByToken/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT DISTINCT...')
+#4 [internal function]: DboSource->query('SELECT DISTINCT...')
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(3309): call_user_func_array(Array, Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\CustomersController.php(242): Model->query('SELECT DISTINCT...')
+#7 [internal function]: CustomersController->getNamesByToken('ardo')
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-04 01:15:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'sale_id' doesn't have a default value
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Sale), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(54): Model->save(Array)
+#5 [internal function]: SalesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-04 14:35:38 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'sale_id' doesn't have a default value
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Sale), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(57): Model->save(Array)
+#5 [internal function]: SalesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-04 18:17:31 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'sale_id' doesn't have a default value
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Sale), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(57): Model->save(Array)
+#5 [internal function]: SalesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-04 18:29:03 Error: Fatal Error (1): Using $this when not in object context in [xdebug://debug-eval, line 1]
+2016-06-04 18:29:03 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /ctasiweb/customers/searchFullName/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-04 18:29:39 Error: Fatal Error (1): Using $this when not in object context in [xdebug://debug-eval, line 1]
+2016-06-04 18:29:39 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /ctasiweb/sales/add?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14650573037092
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-04 18:30:04 Error: Fatal Error (1): Using $this when not in object context in [xdebug://debug-eval, line 1]
+2016-06-04 18:30:04 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /ctasiweb/sales/add?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14650573037092
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-04 18:30:16 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'sale_id' doesn't have a default value
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Sale), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(57): Model->save(Array)
+#5 [internal function]: SalesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-05 03:09:25 Error: Fatal Error (1): Using $this when not in object context in [xdebug://debug-eval, line 1]
+2016-06-05 03:09:25 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /ctasiweb/sales/add?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14650889546953
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 03:12:36 Error: Fatal Error (1): Using $this when not in object context in [xdebug://debug-eval, line 1]
+2016-06-05 03:12:36 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /ctasiweb/sales/add?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14650573037092
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 03:13:54 Error: Fatal Error (1): Using $this when not in object context in [xdebug://debug-eval, line 1]
+2016-06-05 03:13:54 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /ctasiweb/sales/add?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14650892063114
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'xdebug://debug-...', 1, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 03:18:53 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'sale_id' doesn't have a default value
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Sale), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(57): Model->save(Array)
+#5 [internal function]: SalesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-05 06:09:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'sale_id' doesn't have a default value
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Sale), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(57): Model->save(Array)
+#5 [internal function]: SalesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-05 06:10:22 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'sale_id' doesn't have a default value
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Sale), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(57): Model->save(Array)
+#5 [internal function]: SalesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-05 06:11:23 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php, line 55]
+2016-06-05 06:11:23 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 06:11:28 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php, line 55]
+2016-06-05 06:11:28 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 06:11:38 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php, line 55]
+2016-06-05 06:11:38 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 06:11:38 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php, line 55]
+2016-06-05 06:11:38 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 06:11:49 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php, line 55]
+2016-06-05 06:11:49 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /ctasiweb/sales/add?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14650998701295
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 06:13:11 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php, line 55]
+2016-06-05 06:13:11 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-05 06:13:18 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php, line 55]
+2016-06-05 06:13:18 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /ctasiweb/sales/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 55, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-11 13:35:11 Error: [MissingActionException] Action SalesController::sale_call() could not be found.
+Exception Attributes: array (
+  'controller' => 'SalesController',
+  'action' => 'sale_call',
+)
+Request URL: /ctasiweb/sales/sale_call
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-11 13:37:02 Error: [MissingActionException] Action SalesController::sale_call() could not be found.
+Exception Attributes: array (
+  'controller' => 'SalesController',
+  'action' => 'sale_call',
+)
+Request URL: /ctasiweb/sales/sale_call
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-11 13:37:09 Error: [MissingActionException] Action SalesController::sale_call() could not be found.
+Exception Attributes: array (
+  'controller' => 'SalesController',
+  'action' => 'sale_call',
+)
+Request URL: /ctasiweb/sales/sale_call
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-14 04:39:46 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'customer_id' in where clause is ambiguous
+Request URL: /ctasiweb/sales/sale_call?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14656475718962
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Address...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Address...', Array, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Address...', false)
+#4 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2905): DboSource->read(Object(Address), Array)
+#5 C:\PHPCakeProjects\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\PHPCakeProjects\CtasiWeb\Controller\SalesController.php(141): Model->find('all', Array)
+#7 [internal function]: SalesController->sale_call()
+#8 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesController), Array)
+#9 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#11 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-16 03:31:18 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\PHPCakeProjects\CtasiWeb\View\Sales\sale_call.ctp, line 12]
+2016-06-16 03:31:18 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /ctasiweb/sales/sale_call?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14660405416581
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 12, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 12, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-24 19:49:25 Error: [MissingActionException] Action PhonesController::list() could not be found.
+Exception Attributes: array (
+  'controller' => 'PhonesController',
+  'action' => 'list',
+)
+Request URL: /ctasiweb/phones/list
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PhonesController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-24 19:49:35 Error: [NotFoundException] Invalid phone
+Request URL: /ctasiweb/phones/view
+Stack Trace:
+#0 [internal function]: PhonesController->view()
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PhonesController), Array)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PhonesController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-24 19:49:59 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\PHPCakeProjects\CtasiWeb\Controller\PhonesController.php, line 60]
+2016-06-24 19:49:59 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /ctasiweb/phones/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\PHPCakeProje...', 60, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\PHPCakeProje...', 60, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-24 20:40:14 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'phone_id' doesn't have a default value
+Request URL: /ctasiweb/phones/add
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ct...', Array)
+#2 C:\PHPCakeProjects\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ct...')
+#3 C:\PHPCakeProjects\lib\Cake\Model\Model.php(1834): DboSource->create(Object(Phone), Array, Array)
+#4 C:\PHPCakeProjects\CtasiWeb\Controller\PhonesController.php(52): Model->save(Array)
+#5 [internal function]: PhonesController->add()
+#6 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PhonesController), Array)
+#7 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PhonesController), Object(CakeRequest))
+#9 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-24 20:44:17 Error: [MissingControllerException] Controller class SaleCallController could not be found.
+Exception Attributes: array (
+  'class' => 'SaleCallController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/sale_call
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-05 04:47:04 Error: [MissingControllerException] Controller class SaleCallController could not be found.
+Exception Attributes: array (
+  'class' => 'SaleCallController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/sale_call
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-05 05:31:45 Error: [MissingControllerException] Controller class SaleCallController could not be found.
+Exception Attributes: array (
+  'class' => 'SaleCallController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/sale_call/add
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-05 19:44:08 Error: [NotFoundException] Invalid customer
+Request URL: /ctasiweb/customers/view
+Stack Trace:
+#0 [internal function]: CustomersController->view()
+#1 C:\PHPCakeProjects\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#2 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#4 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-15 07:02:58 Error: [MissingActionException] Action CustomersController::search_names() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'search_names',
+)
+Request URL: /ctasiweb/customers/search_names/abel
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-15 07:03:16 Error: [MissingActionException] Action CustomersController::search_names() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'search_names',
+)
+Request URL: /ctasiweb/customers/search_names/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-15 07:03:42 Error: [MissingActionException] Action CustomersController::adel() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'adel',
+)
+Request URL: /ctasiweb/customers/adel
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-15 07:06:04 Error: [MissingActionException] Action CustomersController::get_names_by_token() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'get_names_by_token',
+)
+Request URL: /ctasiweb/customers/get_names_by_token/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-18 20:21:56 Error: [MissingActionException] Action SalesController::get_names_by_token() could not be found.
+Exception Attributes: array (
+  'controller' => 'SalesController',
+  'action' => 'get_names_by_token',
+)
+Request URL: /ctasiweb/sales/get_names_by_token/rodrigo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SalesController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-18 20:22:13 Error: [MissingActionException] Action CustomersController::get_names_by_token() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'get_names_by_token',
+)
+Request URL: /ctasiweb/customers/get_names_by_token/rodrigo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-06 02:49:30 Error: [MissingActionException] Action CustomersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => '1',
+)
+Request URL: /ctasiweb/customers/1
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-11 02:27:01 Error: [MissingActionException] Action CustomersController::get_names_by_token() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'get_names_by_token',
+)
+Request URL: /ctasiweb/customers/get_names_by_token/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-11 02:27:35 Error: [MissingActionException] Action CustomersController::get_names_by_token() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'get_names_by_token',
+)
+Request URL: /ctasiweb/customers/get_names_by_token/ardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\PHPCakeProjects\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest))
+#2 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-11 02:27:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-11 02:29:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-11 02:29:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-11 02:29:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-11 23:52:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 02:34:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 02:35:54 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\PHPCakeProjects\CtasiWeb\View\Customers\get_names_by_token.ctp, line 14]
+2016-11-16 02:35:54 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /ctasiweb/customers/getNamesByToken/eduardo
+Stack Trace:
+#0 C:\PHPCakeProjects\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\PHPCakeProje...', 14, Array)
+#2 C:\PHPCakeProjects\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\PHPCakeProje...', 14, Array)
+#3 C:\PHPCakeProjects\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-16 02:35:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:04:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:04:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:05:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:05:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:06:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:13:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:13:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:13:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:17:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:17:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 03:36:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/js/currency-autocomplete.js
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-01-05 18:37:04 Error: [MissingControllerException] Controller class SectorController could not be found.
+Exception Attributes: array (
+  'class' => 'SectorController',
+  'plugin' => NULL,
+)
+Request URL: /ctasiweb/sector
+Stack Trace:
+#0 C:\PHPCakeProjects\CtasiWeb\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

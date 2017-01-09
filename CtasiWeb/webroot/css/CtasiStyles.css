@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+
+.autocomplete-suggestions { border: 1px solid #999; background: #efefef; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; color: #808080; }
+.autocomplete-selected { background: #efefef; }
+.autocomplete-suggestions strong { font-weight: normal; color: #C0E050; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
