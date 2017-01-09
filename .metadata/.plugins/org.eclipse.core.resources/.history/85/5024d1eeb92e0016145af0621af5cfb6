@@ -1,0 +1,28 @@
+/**
+ * Eventos de la Página de Ventas
+ */
+$(document).ready(function(){
+
+   /**
+    * Sales Customer Selector OnChange Event Handler
+    */
+	$("#SaleCustomerSel").change(function(){
+		$("#SaleCustomerId").val($(this).val());
+		$("#SaleCustomerName").val(this.options[this.selectedIndex].innerHTML);
+	});
+
+	/**
+	 * Sales Customer Name KeyUp Event Handler
+	 */
+	$("#SaleCustomerName").on({
+		"keyup": function(){
+			var $select = $("#SaleCustomerSel");
+			var custUrl = "/ctasiweb/customers";
+			
+			if( this.value && this.value.length >= 4 ) {
+				//alert("Mas de cuatro caracteres!!");
+				customerByNameOptions($select, custUrl, this.value);
+			}
+		}
+	});
+});

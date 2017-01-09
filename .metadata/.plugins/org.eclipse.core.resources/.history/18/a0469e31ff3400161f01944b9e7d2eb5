@@ -1,0 +1,79 @@
+<?php echo $this->Html->div('JSON_DBG','Texto del JSON'); ?>
+<div class="sales form">
+<fieldset>
+		<legend><?php echo __('Do a Sale'); ?></legend>
+	<?php
+		echo $this->Form->create('SelectCustomer');
+		echo $this->Form->hidden('id');
+		echo $this->Form->input('name');
+		echo $this->Form->select('select', array('disabled' => true));
+		echo $this->Form->end(_('Select Customer'));
+	?>
+
+		if(!empty($customer['Customer'])) {
+			
+			
+		}
+			
+// 		echo $this->Form->create('Sale');
+// 		echo $this->Form->hidden('customer_id');
+// 		echo $this->Form->input('customer_name');
+// 		echo $this->Form->select('customer_sel', array('1' => 'xxx 1', '2' => 'xxx 2', '3' => 'xxx 3', '4' => 'xxx 4'));
+// 		echo $this->Form->input('address_id');
+// 		echo $this->Form->input('phone_id');
+// 		echo $this->Form->input('sale_date');
+// 		echo $this->Form->input('dispatch_date');
+// 		echo $this->Form->input('transport_id');
+// 		echo $this->Form->input('items_qty');
+// 		echo $this->Form->input('sale_commission');
+// 		echo $this->Form->input('sale_net');
+// 		echo $this->Form->input('sale_tax');
+// 		echo $this->Form->input('sale_total');
+// 		echo $this->Form->input('sale_user_id');
+// 		echo $this->Form->input('aproval_user_id');
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit')); ?>
+</div>
+<div class="related">
+	<h3><?php echo __('Customer Adresses'); ?></h3>
+		<?php if (!empty($customer['Customer'])): ?>
+		<table cellpadding = "0" cellspacing = "0">
+		<tr>
+			<th><?php echo __('Saleitem Id'); ?></th>
+			<th><?php echo __('Sale Id'); ?></th>
+			<th><?php echo __('Product Id'); ?></th>
+			<th><?php echo __('Quantity'); ?></th>
+			<th><?php echo __('Item Price'); ?></th>
+			<th><?php echo __('Item Discount'); ?></th>
+			<th><?php echo __('Item Net'); ?></th>
+			<th><?php echo __('Item Tax'); ?></th>
+			<th><?php echo __('Item Total'); ?></th>
+			<th class="actions"><?php echo __('Actions'); ?></th>
+		</tr>
+		<?php foreach ($sale['Saleitem'] as $saleitem): ?>
+			<tr>
+				<td><?php echo $saleitem['saleitem_id']; ?></td>
+				<td><?php echo $saleitem['sale_id']; ?></td>
+				<td><?php echo $saleitem['product_id']; ?></td>
+				<td><?php echo $saleitem['quantity']; ?></td>
+				<td><?php echo $saleitem['item_price']; ?></td>
+				<td><?php echo $saleitem['item_discount']; ?></td>
+				<td><?php echo $saleitem['item_net']; ?></td>
+				<td><?php echo $saleitem['item_tax']; ?></td>
+				<td><?php echo $saleitem['item_total']; ?></td>
+				<td class="actions">
+					<?php echo $this->Html->link(__('View'), array('controller' => 'saleitems', 'action' => 'view', $saleitem['id'])); ?>
+					<?php echo $this->Html->link(__('Edit'), array('controller' => 'saleitems', 'action' => 'edit', $saleitem['id'])); ?>
+					<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'saleitems', 'action' => 'delete', $saleitem['id']), array('confirm' => __('Are you sure you want to delete # %s?', $saleitem['id']))); ?>
+				</td>
+			</tr>
+		<?php endforeach; ?>
+		</table>
+	<?php endif; ?>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+	</ul>
+</div>
